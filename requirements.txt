@@ -1,0 +1,15 @@
+openai>=1.12.0
+anthropic>=0.18.0
+langchain>=0.1.10
+langchain-community>=0.0.25
+langchain-openai>=0.0.8
+langgraph>=0.0.30
+crewai>=0.20.0
+chromadb>=0.4.22
+tiktoken>=0.6.0
+python-dotenv>=1.0.0
+pydantic>=2.6.0
+requests>=2.31.0
+numpy>=1.26.0
+faiss-cpu>=1.7.4
+sentence-transformers>=2.5.0
