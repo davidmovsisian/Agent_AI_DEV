@@ -1,0 +1,13 @@
+Question 1: Generative AI Concepts
+Q: What is the main difference between traditional discriminative AI and generative AI? Provide two examples of each.
+A: 	Traditional AI - for classification and analyzes of existing data, such as text recognitoion, image recognition, classification of data by lables.  Based on fixed set of options.
+	Generative AI - capable of generating output for unseen problems, create new content.
+Q: Given the following text, estimate how many tokens it would use:
+	"Hello! I'm learning about artificial intelligence and large language models."
+A:	tokens = strlen(text)/4 = 76/4 = 19. => 20-22 tokens
+Q: 	You're building a chatbot that will handle 10,000 simple customer queries per day (average 50 input tokens, 30 output tokens). Which model would be most cost-effective?
+A:	50000 input tokens, 30000 output tokens. for GPT-3.5 the cost is (50000*0.50)/1M + (30000*1.5)/1M =  0.07$
+Q:	You're building a system to extract structured data from invoices. What temperature setting would be most appropriate?
+A:	0.0-0.3 (deterministic)
+Q: 	You need to analyze a 50,000-word document. Which model(s) could handle this in a single API call?
+A:	50000 words = 50000*1.25 = 62500 tokens. => GPT-4-turbo (128K context)
